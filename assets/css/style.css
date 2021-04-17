@@ -1,0 +1,116 @@
+<style> 
+
+font-family: 'Syne Mono', monospace;
+
+	* { 
+		box-sizing: border-box; 
+	} 
+	h1 { 
+		font-size: 60px;
+		color: black; 
+	} 
+	h2 { 
+		font-family: 'Syne Mono', monospace;
+		font-size: 32px;
+		color: rgb(104, 14, 14); 
+	} 
+	h3 { 
+		font-family: 'Syne Mono', monospace;
+		font-size: 24px;
+		color: green; 
+	} 		
+	.header { 
+		font-family: 'Syne Mono', monospace;
+		max-width: 800px; 
+		margin: auto;
+	} 
+	.header div ul li {
+		display: inline-block;
+		margin-left: 40px;
+		font-size: 20px;
+	}
+	body { 
+		background-color: darkgrey;
+		padding: 15px;
+		margin: auto;
+	} 
+	.ul {
+		font-family: 'Syne Mono', monospace;
+		width: 50%;
+		border: 3px solid green;
+		padding: 10px;
+	  }
+
+
+	}
+
+
+	}
+
+
+	
+
+	a { 
+		text-decoration: none; 
+		color: #5673C8; 
+	} 
+	
+	a:hover { 
+		color: lightblue; 
+	} 
+	
+	p { 
+		font-family: 'Syne Mono', monospace;
+
+
+	} 
+	
+	.row { 
+		margin: 0px -18px; 
+		padding: 8px; 
+	} 
+	
+	.row > .column { 
+		padding: 6px; 
+	} 
+	.column1 { 
+		float: center; 
+		width: 100%; 
+	} 
+	.column { 
+		width: 51%; 
+		margin: auto
+		float: center; 
+		position: absolute center;
+		width: 70%; 
+	} 
+	.column2 { 
+		float: center; 
+		position: absolute center;
+		width: 100%; 
+	} 
+	
+	.row:after { 
+		content: ""; 
+		display: table; 
+		clear: both; 
+	} 
+	
+	.content { 
+		background-color: white; 
+		padding: 10px; 
+		border: 2px solid black; 
+	} 
+	
+	@media screen and (max-width: 1000px) { 
+		.column { 
+			width: 100%; 
+		} 
+	} 
+
+	@media screen and (max-width: 1200px) { 
+		.column1 { 
+			width: 100%; 
+		} 
+	} 
+</style> 
