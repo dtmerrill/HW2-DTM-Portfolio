@@ -21,48 +21,26 @@ font-family: 'Syne Mono', monospace;
 	} 		
 	.header { 
 		font-family: 'Syne Mono', monospace;
-		max-width: 800px; 
+		max-width: 80%; 
 		margin: auto;
 	} 
-	.header div ul li {
-		display: inline-block;
-		margin-left: 40px;
-		font-size: 20px;
-	}
+	
 	body { 
+		font-family: 'Syne Mono', monospace;
 		background-color: darkgrey;
 		padding: 15px;
+		max-width: 80%;
 		margin: auto;
 	} 
-	.ul {
-		font-family: 'Syne Mono', monospace;
-		width: 50%;
-		border: 3px solid green;
-		padding: 10px;
-	  }
-
-
-	}
-
-
-	}
-
-
-	
 
 	a { 
 		text-decoration: none; 
 		color: #5673C8; 
+		font-size: 24px;
 	} 
 	
 	a:hover { 
 		color: lightblue; 
-	} 
-	
-	p { 
-		font-family: 'Syne Mono', monospace;
-
-
 	} 
 	
 	.row { 
@@ -72,45 +50,30 @@ font-family: 'Syne Mono', monospace;
 	
 	.row > .column { 
 		padding: 6px; 
-	} 
+	}  
 	.column1 { 
 		float: center; 
 		width: 100%; 
 	} 
 	.column { 
-		width: 51%; 
-		margin: auto
-		float: center; 
-		position: absolute center;
 		width: 70%; 
-	} 
-	.column2 { 
-		float: center; 
-		position: absolute center;
-		width: 100%; 
-	} 
-	
-	.row:after { 
-		content: ""; 
-		display: table; 
-		clear: both; 
 	} 
 	
 	.content { 
-		background-color: white; 
+		background-color: lightgrey; 
 		padding: 10px; 
 		border: 2px solid black; 
 	} 
 	
-	@media screen and (max-width: 1000px) { 
+	@media screen and (max-width: 800px) { 
 		.column { 
-			width: 100%; 
+			width: 75%; 
 		} 
 	} 
 
-	@media screen and (max-width: 1200px) { 
+	@media screen and (max-width: 1000px) { 
 		.column1 { 
-			width: 100%; 
+			width: 90%; 
 		} 
 	} 
 </style> 
